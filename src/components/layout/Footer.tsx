@@ -40,33 +40,17 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* Developer Credit — HABB PVT LTD */}
+            {/* Credits */}
             <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
 
                     {/* Copyright */}
                     <div className="text-slate-500 text-[10px] font-black uppercase tracking-widest">
                         © {new Date().getFullYear()} Optimrental Switzerland. All rights reserved.
                     </div>
 
-                    {/* Developed By — compact inline pill */}
-                    <a
-                        href="https://www.habb.lk"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group inline-flex items-center gap-2.5 bg-white/5 hover:bg-amber-500/10 border border-white/10 hover:border-amber-500/40 px-4 py-2 rounded-full transition-all duration-300 hover:scale-105"
-                    >
-                        <span className="w-2 h-2 rounded-full bg-amber-500 group-hover:bg-amber-400 transition-colors shrink-0" />
-                        <span className="text-slate-400 text-xs font-semibold group-hover:text-slate-300 transition-colors whitespace-nowrap">
-                            Developed by
-                        </span>
-                        <span className="text-white text-xs font-black tracking-wide group-hover:text-amber-400 transition-colors whitespace-nowrap">
-                            HABB PVT LTD
-                        </span>
-                        <span className="text-slate-500 text-[10px] group-hover:text-amber-500 transition-colors whitespace-nowrap">
-                            www.habb.lk
-                        </span>
-                    </a>
+                    {/* Built by bfoundr · Grown by 7raa */}
+                    <div className="c16 on-dark"><a href="https://bfoundr.com" target="_blank" rel="noopener" aria-label="Built by bfoundr">Built by <span className="lg bf">bf<span className="o"></span>undr</span></a><a href="https://7raa.com" target="_blank" rel="noopener" aria-label="Grown by 7raa">Grown by <span className="lg sr">7RAA</span></a></div>
 
                     {/* Legal Links */}
                     <div className="flex gap-8 text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">
